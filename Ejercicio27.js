@@ -1,4 +1,10 @@
-/*PSEUDOCOD Algoritmo sacar_iva
+/*BOSQUEJO
+Primero ingresamos el  monto total de la factura
+Luego el iva aplicado
+Al valor  del  monto le sacamos el iva
+Entonces decimos que el valor total a pagar es el monto inicial mas  el impuesto
+*/
+/*PSEUDOCODIGO Algoritmo sacar_iva
 	Imprimir "Ingresar monto total de la factura"
 	Leer monto_
 	Imprimir "Ingresar el iva aplicado"

@@ -9,12 +9,16 @@ Algoritmo Ejercicio35
 		Imprimir "Numero", i, ":", arreglo[i]
 	FinPara
 	Si arreglo[1]>arreglo[3]
-		Imprimir "El primer elemento es mayor"
-	SiNo
-		si arreglo[2]>arreglo[3]
-			Imprimir "El segundo elemento es mayor"
+		Si arreglo[1] > arreglo[2]
+			Imprimir "El primer elemento es mayor"
 		SiNo
+			Imprimir "El segundo elemento es mayor"
+		FinSi
+	SiNo
+		si arreglo[3]>arreglo[2]
 			Imprimir "El tercer elemento es mayor"
+		SiNo
+			Imprimir "El segundo elemento es mayor"
 		FinSi
 	FinSi
 FinAlgoritmo
