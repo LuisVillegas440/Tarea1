@@ -1,0 +1,14 @@
+{
+  "name": "tarea-1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Ejercicio1.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Luis Villegas",
+  "license": "ISC",
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  }
+}
